@@ -1,6 +1,8 @@
 import tkinter as tk
 from tkinter import messagebox
 
+# pip install tkinter
+
 class TicTacToeGame:
     def __init__(self, root):
         self.root = root

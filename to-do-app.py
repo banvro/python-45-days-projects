@@ -1,11 +1,11 @@
 import tkinter as tk
-from tkinter import messagebox
+from tkinter import messagebox 
 
 class TodoApp:
     def __init__(self, root):
         self.root = root
         self.root.title("To-Do List App")
-        self.root.geometry("400x400")
+        self.root.geometry("500x500")
 
         self.tasks = []
 
