@@ -49,7 +49,7 @@ class Fee():
                 self.due_entry.delete(0, END)
                 self.due_entry.insert(END, st[9])
             except IndexError:
-                pass
+                pass  
 
         def Insert():
             if (len(self.admsn.get()) != 0):
@@ -290,3 +290,5 @@ class Fee():
 root = Tk()
 obj = Fee(root)
 root.mainloop()
+
+
