@@ -7,7 +7,7 @@ class TodoApp:
         self.root.title("To-Do List App")
         self.root.geometry("500x500")
 
-        self.tasks = []
+        self.tasks = [] 
 
         self.task_entry = tk.Entry(root, font=("Helvetica", 16))
         self.task_entry.pack(pady=20)
