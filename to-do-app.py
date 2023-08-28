@@ -44,7 +44,7 @@ class TodoApp:
         for task in self.tasks:
             self.task_listbox.insert(tk.END, task)
 
-    def load_tasks(self):
+    def load_tasks(self): 
         try:
             with open("tasks.txt", "r") as file:
                 self.tasks = [line.strip() for line in file.readlines()]
